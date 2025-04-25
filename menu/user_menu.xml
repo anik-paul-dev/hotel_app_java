@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_rooms"
+        android:title="Rooms" />
+    <item
+        android:id="@+id/nav_facilities"
+        android:title="Facilities" />
+    <item
+        android:id="@+id/nav_contact_us"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/nav_about"
+        android:title="About" />
+    <item
+        android:id="@+id/nav_my_bookings"
+        android:title="My Bookings" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+</menu>

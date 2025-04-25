@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/nav_new_bookings"
+        android:title="New Bookings" />
+    <item
+        android:id="@+id/nav_bookings_records"
+        android:title="Bookings Records" />
+    <item
+        android:id="@+id/nav_users"
+        android:title="Users" />
+    <item
+        android:id="@+id/nav_user_queries"
+        android:title="User Queries" />
+    <item
+        android:id="@+id/nav_rating_reviews"
+        android:title="Rating &amp; Reviews" />
+    <item
+        android:id="@+id/nav_rooms"
+        android:title="Rooms" />
+    <item
+        android:id="@+id/nav_features_facilities"
+        android:title="Features &amp; Facilities" />
+    <item
+        android:id="@+id/nav_carousel"
+        android:title="Carousel" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+</menu>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_shutdown_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel is currently shut down"
+        android:visibility="gone"
+        android:textColor="@color/red"
+        android:textSize="16sp" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/carousel_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_check_in"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:hint="Check-In"
+            android:inputType="date" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_check_out"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:hint="Check-Out"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_adults"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:hint="Adults"
+            android:inputType="number" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_children"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:hint="Children"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_facility"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Facility (Optional)"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_check_availability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Availability"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rooms"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rooms_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_more_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="More Rooms"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facilities"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/facilities_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_more_facilities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Facilities"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reviews"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reviews_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_know_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Know More"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_website_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_website_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:id="@+id/social_links"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

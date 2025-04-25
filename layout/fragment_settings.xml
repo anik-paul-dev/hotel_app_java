@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_website_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Website Title" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_website_description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Website Description"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Address"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Phone Numbers (comma separated)"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_google_map_iframe"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Google Map Iframe"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Shutdown Website"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/switch_shutdown"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Settings"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Room"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Room Name" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_area"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Area (sq ft)"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_price"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_max_adults"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Max Adults"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_max_children"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Max Children"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:minLines="4"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btn_add_images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick Images"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_features"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Features (comma separated)"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_facilities"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Facilities (comma separated)"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hotel Booking</string>
+    <string name="hotel_is_shutdown">Hotel is currently shut down</string>
+    <string name="check_availability">Check Availability</string>
+    <string name="more_rooms">More Rooms</string>
+    <string name="more_facilities">More Facilities</string>
+    <string name="know_more">Know More</string>
+    <string name="filter_rooms">Filter Rooms</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="pick_images">Pick Images</string>
+    <string name="book_now">Book Now</string>
+    <string name="download_pdf">Download PDF</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="assign_room">Assign Room</string>
+    <string name="mark_read">Mark as Read</string>
+    <string name="delete">Delete</string>
+    <string name="add_room">Add Room</string>
+    <string name="add_feature">Add Feature</string>
+    <string name="add_facility">Add Facility</string>
+    <string name="footer_text">Footer</string>
+    <string name="add_carousel_image">Add Carousel Image</string>
+</resources>
