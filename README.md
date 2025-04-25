@@ -1,0 +1,1 @@
+this is my new hotel management app project using java. it's not completed yet. But 50-60% setup is ready, so if you are want to use it then use it by modifing on your own. connect it with firebase and also correct to auth setup. i haven't done yet so.
